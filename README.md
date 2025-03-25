@@ -51,21 +51,22 @@ questions in natural language, and the system will:
 # Implementation Details
 
 1. Natural Language to SQL Conversion: The system is designed to understand user queries in plain English and generate precise SQL queries. It ensures:
-•	Accurate retrieval of inventory, sales, and discount data.
 
-•	Logical query structuring to maintain efficiency.
+   •	Accurate retrieval of inventory, sales, and discount data.
 
-•	Seamless execution of SQL queries on the MySQL database.
+   •	Logical query structuring to maintain efficiency.
 
-2. Use of Prompt Templates: LangChain enables the use of structured prompt templates to guide the model in SQL generation and result interpretation. These templates help format responses, ensuring clarity and consistency.
+   •	Seamless execution of SQL queries on the MySQL database.
+
+3. Use of Prompt Templates: LangChain enables the use of structured prompt templates to guide the model in SQL generation and result interpretation. These templates help format responses, ensuring clarity and consistency.
    
-3. Few-Shot Learning for Enhanced Query Generation: Few-shot learning improves the model’s ability to:
+4. Few-Shot Learning for Enhanced Query Generation: Few-shot learning improves the model’s ability to:
    
-•	Handle diverse user queries effectively.
+   •	Handle diverse user queries effectively.
 
-•	Reduce errors in SQL query generation.
+   •	Reduce errors in SQL query generation.
 
-•	Adapt to variations in natural language inputs.
+   •	Adapt to variations in natural language inputs.
 
 
 
